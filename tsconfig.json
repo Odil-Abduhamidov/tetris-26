@@ -1,7 +1,16 @@
 {
     "compilerOptions": {
         "target": "ES2015",
-        
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true
     },
-    "files": ["index.ts", "shapes.ts", "interfaces.ts"]
+    "files": ["index.ts", "shapes.ts", "interfaces.ts"],
+   
+    
 }
+
+
+  
