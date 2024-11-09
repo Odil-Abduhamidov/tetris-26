@@ -22,6 +22,7 @@ function drawTetrisPlayground(x, y, target) {
 
         target.append(row)
     }
+    
 }
 
 const tetrisPlaygroundTarget = document.querySelector('.tetris-playground') as (HTMLDivElement | null)
