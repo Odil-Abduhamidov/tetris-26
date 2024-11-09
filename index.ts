@@ -1,4 +1,4 @@
-import { shapes } from "./shapes"
+import { shapes } from "./shapes.js"
  
 function drawTetrisPlayground(x, y, target) {
     if (x <= 0 || y <= 0) throw new Error('x and y cannot be negative')
